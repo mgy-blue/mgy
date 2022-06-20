@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>盒子</title>
+    <style>
+        .hezi {
+            background-color: red;
+            height: 50px;
+            width: 100px;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body style="margin: 0;">
+    <!--头部栏-->
+    <div style="background-color: #f1f1f1;
+    text-align:center;
+    padding: 40px;
+    font-size: 12px;">
+        <img src="https://kangwenchang.com/logo.png" alt="错误" width="80px" height="80px">
+    </div>
+    <!--中间栏-->
+    <div style="
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 50px;
+    Line-height: 1.7;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    ">
+        <P class="hezi">这是正文</P>
+        <P class="hezi">这是正文</P>
+        <P class="hezi">这是正文</P>
+        <P class="hezi">这是正文</P>
+        <P class="hezi">这是正文</P>
+    </div>
+    <!--底部栏-->
+    <div style="background-color: #f1f1f1;
+    text-align:center;
+    padding: 40px;
+    font-size: 12px;">
+        <a href="hi.html">下一页</a>
+        <p>版权所有:mgy2022.cn</p>
+        <a href="https://mgy2022.cn">我的网站</a>
+    </div>
+</body>
+
+</html>
